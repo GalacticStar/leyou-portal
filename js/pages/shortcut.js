@@ -57,7 +57,7 @@ const shortcut = {
         },
         logout() {
             ly.http.get("/auth/logout");
-            window.location = 'http://www.leyou.com'
+            window.location = 'http://www.smilepet.ml'
         },
     }
 }

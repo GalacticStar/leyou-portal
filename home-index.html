@@ -308,11 +308,11 @@
                 // 删除cookie中的token即可
                 /*Cookies.remove("LY_TOKEN",{
                     path:"/",
-                    domain:"leyou.com"
+                    domain:"smilepet.ml"
                 });*/
                 /* 垃圾前端毁我青春，无奈只能后台改value */
                 ly.http.get("/auth/logout");
-                window.location = 'http://www.leyou.com'
+                window.location = 'http://www.smilepet.ml'
             },
             gotoLogin() {
                 window.location = "login.html?returnUrl=" + window.location;
